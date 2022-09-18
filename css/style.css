@@ -1,0 +1,224 @@
+* {
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    background: rgb(191, 204, 205);
+    background: linear-gradient(0deg, rgba(191, 204, 205, 0.9724264705882353) 0%, rgba(38, 32, 198, 1) 0%, rgba(57, 54, 199, 1) 69%);
+}
+
+main {
+
+    align-items: center;
+    background: #ffffff;
+    width: 90%;
+
+    margin: 20px auto;
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+@media (min-width: 400px) {
+
+    .logo {
+
+      
+         font-size: 20px;
+         margin: 15px 0;
+         padding: 15px 5px;
+         text-align: center;
+       
+         
+     }
+     .logo h1{
+     
+         display: inline;
+        
+         margin: 50px 10px;
+       
+         position: relative;
+         vertical-align: center;
+      
+         
+         
+     
+     
+     
+     }
+
+     .logo h2{
+             display: inline;
+             position: relative;
+           
+             
+             
+             
+          
+     }
+
+}
+
+.aviso {
+
+    font-size: 12px;
+    margin: 5px 10px;
+    padding: 10px;
+}
+
+
+form {
+    width: 100%;
+
+}
+
+form label,
+legend {
+
+    display: block;
+    font-size: 20px;
+    margin: 20px 0 10px;
+
+}
+
+section {
+ 
+    width: 100%;
+    height: 200px;
+   text-align: center;
+   
+
+}
+
+
+.botones {
+
+    height: 40px;
+    padding: 5px;
+}
+
+button {
+
+    background: #2620c6;
+    width: 100px;
+    border-radius: 6px;
+
+    height: 30px;
+    transition: 300ms;
+    color: #ffffff;
+    margin: 0 12px;
+}
+
+input {
+    margin: 12px 5px;
+    padding: 2px;
+    width: 80%;
+    height: 100px;
+    text-align: center;
+
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+.footer {
+    text-align: center;
+    width: 30xpx;
+    padding: 20px;
+}
+
+@media (max-width: 400px) {
+
+
+    .footer {
+        text-align: center;
+        width: 30xpx;
+        padding: 20px;
+    }
+    
+    main {
+        align-items: center;
+        background: #ffffff;
+        width: 90%;
+    
+        margin: 0 auto;
+        margin-top: 10px;
+        border-radius: 5px;
+    
+    }
+    
+    section {
+    
+        width: 100%;
+        height: 200px;
+    
+    }
+    
+
+    .logo {
+
+        font-size: 20px;
+        margin: 15px 0;
+        padding: 15px 5px;
+       align-items: center;
+
+      
+    }
+  
+
+    main {
+
+        text-align: center;
+        align-items: center;
+    }
+
+    form {
+        width: 100%;
+
+    }
+
+    form label,
+    legend {
+
+        display: block;
+        font-size: 20px;
+        margin: 20px 0 10px;
+
+    }
+
+    .botones {
+
+        height: 40px;
+        padding: 5px;
+    }
+
+    button {
+
+        background: #2620c6;
+        width: 100px;
+        border-radius: 6px;
+
+        height: 30px;
+        transition: 300ms;
+        color: #ffffff;
+        margin: 0 12px;
+    }
+
+    .aviso {
+
+        font-size: 12px;
+        margin: 5px 10px;
+        padding: 10px;
+    }
+
+    input {
+        margin: 12px 5px;
+        padding: 2px;
+        width: 80%;
+        height: 100px;
+        text-align: center;
+
+        border: 2px solid #000;
+        border-radius: 5px;
+    }
+
+
+}
